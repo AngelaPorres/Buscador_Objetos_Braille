@@ -8,7 +8,7 @@ from braille import (BOTTOM_BAND, CARD_HEIGHT, CARD_WIDTH, DOT_SIZE, FRAME,
                      MARGIN, letter_to_pattern)
 
 # Password (GUIA) + objects (C wallet, L keys, B bottle, P pill box)
-LETTERS = ["G", "U", "I", "A", "C", "L", "B", "P"]
+LETTERS = ["G", "U", "I", "A", "C", "L", "B", "E"]
 
 OUTPUT_DIR = Path(__file__).resolve().parent.parent / "cards"
 WHITE, BLACK = 255, 0
