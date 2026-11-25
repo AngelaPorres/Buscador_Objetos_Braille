@@ -7,7 +7,7 @@ from undistortion import build_undistort_maps, load_calibration, undistort_frame
 
 # Video stream served by the DroidCam app on the iPhone.
 # The IP is shown in the app: update it if you change Wi-Fi network.
-CAMERA_URL = "http://192.168.68.100:4747/video"
+CAMERA_URL = "http://172.20.10.1:4747/video"
 
 
 def main():
